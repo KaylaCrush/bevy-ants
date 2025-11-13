@@ -27,7 +27,7 @@ pub fn spawn_ant(
     mut materials: ResMut<Assets<ColorMaterial>>,
     position: Vec2,
 ) {
-    let size = 40.0;
+    let size = 4.0;
     // Using the same shapes/meshes you used previously
     let body = Ellipse::new(size, size*0.5);
     let body_mesh = meshes.add(body);
